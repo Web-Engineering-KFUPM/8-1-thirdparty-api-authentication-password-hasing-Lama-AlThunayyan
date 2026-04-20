@@ -219,14 +219,14 @@
  *
  *   9) If something crashes inside try block:
  *        return res.status(500).json({ error: "Server error during weather fetch" });
- *
+ * to commit
  */
 
 /**
  * =========================================================
  * Lab: SECURE WEATHER DASHBOARD
  * =========================================================
- */
+ */ 
 
 const express = require("express");
 const bcrypt = require("bcryptjs");
